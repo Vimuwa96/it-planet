@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.upper-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #ff9400 !important ;
+  padding: 10px 25px 10px 25px;
+}
+
+.socails {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-links a i {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.social-links a i:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.mobile a {
+  font-weight: 900;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+}
+
+.slider-wrapper {
+  background-color: #040404;
+}
+
+.main-nav-wrapper {
+  background-color: #0b0b0b;
+}
+
+.navbar-nav li a {
+  color: white;
+  transition: 0.5s ease;
+  font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+  color: #000000;
+  background-color: #ff9400;
+}
+
+.dropdown-menu li a {
+  color: #000;
+}
+
+.dropdown-menu li a:hover {
+  color: #fffefe;
+}
+.dropdown-menu {
+  background-color: #ff9400;
+  overflow: visible;
+  z-index: 100;
+}
+
+.navbar-nav li a:active {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.welcome-heading-wrapper {
+  color: white;
+  position: relative;
+}
+
+.welcome-wrapper {
+  display: flex;
+  justify-content: start;
+  color: #ff9400;
+}
+.welcome-wrapper h1 {
+  font-size: 6vh;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.bg-image {
+  position: absolute;
+  z-index: -1;
+  opacity: 5%;
+  top: -40px;
+}
+
+.bg-image img {
+  height: 250px;
+  width: 100%;
+}
+
+#hero {
+  background-image: url(https://live.staticflickr.com/4242/35035553340_05a7d9894e_h.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.browse-products {
+  background-color: #ff9400;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.browse-products a {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: 0.1s ease;
+}
+
+.welcome-description p {
+  text-align: justify;
+}
+
+.browse-products a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.sliders {
+  justify-content: center;
+  position: relative;
+}
+
+.cart-wrpper a i {
+  color: #010101;
+  padding: 15px 16px;
+  transition: 0.5s ease;
+  background-color: #ff9400;
+  border-radius: 50%;
+}
+
+.cart-wrpper a i:hover {
+  background-color: #f3f2f1;
+  color: rgb(0, 0, 0);
+}
+.sliders {
+  position: relative;
+}
+.slider-header {
+  justify-content: center;
+  color: #f3f2f1;
+}
+
+.slider-header h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.slider-price h3 {
+  color: #ff9400;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-wrpper {
+  color: white;
+}
+
+.splide__slide {
+  color: white;
+}
+
+.splide__slide {
+  position: relative;
+}
+
+.shop-now {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.shop-now a {
+    visibility: hidden;
+    color: rgb(9, 9, 9);
+    background-color: #ff9400;
+    padding: 15px 18px;
+    transition: 0.5s ease;
+    font-weight: 600;
+  }
+  .shop-now a:hover {
+
+    color: rgb(245, 245, 245);
+    background-color: #ff9400;
+    padding: 15px 18px;
+    transition: 0.5s ease;
+    font-weight: 600;
+  } 
+.splide__slide:hover .shop-now a {
+  visibility:visible;
+}
+
+.product-category{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
