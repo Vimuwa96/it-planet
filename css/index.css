@@ -35,6 +35,11 @@ a {
   color: rgb(12, 12, 12);
 }
 
+button{
+  background-color: transparent;
+  color: #ff9400;
+  border: none;
+}
 .slider-wrapper {
   background-color: #040404;
 }
@@ -298,4 +303,19 @@ a{
 
 .main-product-card-wrapper:hover .main-product-details{
   background-color: #000;
+}
+
+.show-more a {
+  background-color: #f39e28;
+  padding: 15px 23px;
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
 }

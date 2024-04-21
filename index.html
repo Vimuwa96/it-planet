@@ -303,114 +303,318 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <div class="container">
         <div class="new-arrivals-section">
           <div class="new-arrivals-tabs">
-            <h2><i class="bi bi-bookmark-star-fill"></i> New Arrivails</h2>
+            <button class="tablinks active" onclick="openCity(event, 'New')">
+              <h2><i class="bi bi-bookmark-star-fill"></i> New Arrivails</h2>
+            </button>
           </div>
           <div class="offers">
-            <h2>
-              <i class="bi bi-tags-fill" style="padding-right: 5px"></i>Offers
-            </h2>
+            <button class="tablinks" onclick="openCity(event, 'Offers')">
+              <h2>
+                <i class="bi bi-tags-fill" style="padding-right: 5px"></i>Offers
+              </h2>
+            </button>
           </div>
         </div>
 
         <div class="main-products-wrapper">
-          <div class="row">
-            <div class="col-md-4 d-flex g-1 align-items-stretch">
-              <div class="main-product-card-wrapper">
-                <div class="mian-product-card">
-                  <div class="mian-product-image text-center">
-                    <a href="">
-                      <img
-                        src="images/MSI-B560-A-Pro-Motherboard-removebg-preview.png"
-                        alt="product"
-                        height="250px"
-                        width="250px"
-                      />
-                    </a>
-                  </div>
+          <div id="New" class="tabcontent" style="display:block;">
+            <div class="row">
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/MSI-B560-A-Pro-Motherboard-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
 
-                  <div class="main-product-details text-center p-3">
-                    <h5>MSI Gaming Motherboard with WIFI (1 Year Warranty)</h5>
-                  </div>
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        MSI Gaming Motherboard with WIFI (1 Year Warranty)
+                      </h5>
+                    </div>
 
-                  <div class="product-catergory text-center pt-3">
-                    <p>- Motherboards -</p>
-                  </div>
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Motherboards -</p>
+                    </div>
 
-                  <div class="product-selling-price text-center">
-                    <h3>57,000.00 LKR</h3>
+                    <div class="product-selling-price text-center">
+                      <h3>57,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 57,000.00 LKR )
+                      </p>
+                    </div>
                   </div>
-                  <div class="product-was-price text-center">
-                    <p style="text-decoration: line-through;">( 57,000.00 LKR )</p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/GOLDEN-FIELD-XH8-GAMING-CASING-copy-min-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        Golden Feild Casing without RGB Fans (03 months
+                        warranty)
+                      </h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Gaming Casings -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>15,000 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 18,000.00 LKR )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/PC-Case-0-4mm-Double-Sided-Tempered-Glass-Computer-Case-USB3-0-Gaming-Case-ATX-Case-removebg-preview-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>Gaming Casing with 3 x RGB Fans</h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Gaming Casings -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>18,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 23,000.00 LKR )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/MSI-B560-A-Pro-Motherboard-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        MSI Gaming Motherboard with WIFI (1 Year Warranty)
+                      </h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Motherboards -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>57,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 57,000.00 LKR )
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 d-flex g-1 align-items-stretch">
-              <div class="main-product-card-wrapper">
-                <div class="mian-product-card">
-                  <div class="mian-product-image text-center">
-                    <a href="">
-                      <img
-                        src="images/GOLDEN-FIELD-XH8-GAMING-CASING-copy-min-removebg-preview.png"
-                        alt="product"
-                        height="250px"
-                        width="250px"
-                      />
-                    </a>
-                  </div>
-
-                  <div class="main-product-details text-center p-3">
-                    <h5>Golden Feild Casing without RGB Fans (03 months warranty)</h5>
-                  </div>
-
-                  <div class="product-catergory text-center pt-3">
-                    <p>- Gaming Casings -</p>
-                  </div>
-
-                  <div class="product-selling-price text-center">
-                    <h3>15,000 LKR</h3>
-                  </div>
-                  <div class="product-was-price text-center">
-                    <p style="text-decoration: line-through;">( 18,000.00 LKR )</p>
-                  </div>
-                </div>
-              </div>
+            <div class="show-more text-center pb-5 pt-5">
+              <a href="">Show More</a>
             </div>
-            <div class="col-md-4 d-flex g-1 align-items-stretch">
-              <div class="main-product-card-wrapper">
-                <div class="mian-product-card">
-                  <div class="mian-product-image text-center">
-                    <a href="">
-                      <img
-                        src="images/PC-Case-0-4mm-Double-Sided-Tempered-Glass-Computer-Case-USB3-0-Gaming-Case-ATX-Case-removebg-preview-removebg-preview.png"
-                        alt="product"
-                        height="250px"
-                        width="250px"
-                      />
-                    </a>
-                  </div>
+          </div>
+          <div id="Offers" class="tabcontent">
+            <div class="row">
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/MSI-B560-A-Pro-Motherboard-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
 
-                  <div class="main-product-details text-center p-3">
-                    <h5>Gaming Casing with 3 x RGB Fans</h5>
-                  </div>
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        MSI Gaming Motherboard with WIFI (1 Year Warranty)
+                      </h5>
+                    </div>
 
-                  <div class="product-catergory text-center pt-3">
-                    <p>- Gaming Casings -</p>
-                  </div>
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Motherboards -</p>
+                    </div>
 
-                  <div class="product-selling-price text-center">
-                    <h3>18,000.00 LKR</h3>
-                  </div>
-                  <div class="product-was-price text-center">
-                    <p style="text-decoration: line-through;">( 23,000.00 LKR )</p>
+                    <div class="product-selling-price text-center">
+                      <h3>57,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 57,000.00 LKR )
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/MSI-B560-A-Pro-Motherboard-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        MSI Gaming Motherboard with WIFI (1 Year Warranty)
+                      </h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Motherboards -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>57,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 57,000.00 LKR )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/GOLDEN-FIELD-XH8-GAMING-CASING-copy-min-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>
+                        Golden Feild Casing without RGB Fans (03 months
+                        warranty)
+                      </h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Gaming Casings -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>15,000 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 18,000.00 LKR )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex g-1 align-items-stretch">
+                <div class="main-product-card-wrapper">
+                  <div class="mian-product-card">
+                    <div class="mian-product-image text-center">
+                      <a href="">
+                        <img
+                          src="images/PC-Case-0-4mm-Double-Sided-Tempered-Glass-Computer-Case-USB3-0-Gaming-Case-ATX-Case-removebg-preview-removebg-preview.png"
+                          alt="product"
+                          height="250px"
+                          width="250px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="main-product-details text-center p-3">
+                      <h5>Gaming Casing with 3 x RGB Fans</h5>
+                    </div>
+
+                    <div class="product-catergory text-center pt-3">
+                      <p>- Gaming Casings -</p>
+                    </div>
+
+                    <div class="product-selling-price text-center">
+                      <h3>18,000.00 LKR</h3>
+                    </div>
+                    <div class="product-was-price text-center">
+                      <p style="text-decoration: line-through">
+                        ( 23,000.00 LKR )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="show-more text-center pb-5 pt-5">
+              <a href="">Show More</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="footer-section-wrapper vh-100"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
@@ -425,5 +629,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </script>
     <!-- Bootstrap JS -->
     <script src="js/style.js"></script>
+
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
   </body>
 </html>
