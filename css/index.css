@@ -236,9 +236,6 @@ a {
   background-color: #000;
 }
 
-.new{
-  background-color: #f39e28;
-}
 
 .service-card:hover{
   background-color: #000;
@@ -246,12 +243,12 @@ a {
 }
 
 .service-card:hover .service-card-icon i{
-
   color: #ff9400;
 }
 
-.new-arrivals{
+.products-wrapper{
   background-color: #000;
+  color: #ff9400;
 }
 
 .condition-apply{
@@ -261,4 +258,44 @@ a {
 
 .service-card:hover .condition-apply{
   visibility:visible;
+}
+
+.new-arrivals-section{
+  display: flex;
+  justify-content:space-around;
+}
+
+.main-product-card-wrapper{
+  border: 3px solid grey!important;
+  width: 100%;
+}
+
+.main-product-details{
+  background-color: grey;
+  color: white;
+  transition: 0.5s ease;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.product-selling-price h3{
+  font-weight: 700;
+}
+.main-product-card-wrapper{
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.main-product-card-wrapper:hover{
+  clip-path: circle(100%);
+  background-color: #f39e28;
+  color: white;
+}
+
+.main-product-card-wrapper:hover .main-product-details{
+  background-color: #000;
 }
