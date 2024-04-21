@@ -2,6 +2,7 @@
 
 * {
   font-family: "Roboto", sans-serif;
+
 }
 
 .upper-nav-wrapper {
@@ -82,10 +83,10 @@ a {
 .welcome-wrapper {
   display: flex;
   justify-content: start;
-  color: #ff9400;
+  color: #ffffff;
 }
 .welcome-wrapper h1 {
-  font-size: 6vh;
+  font-size: 5vh;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -107,6 +108,7 @@ a {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  object-fit: contain;
 }
 
 .browse-products {
@@ -181,32 +183,82 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .shop-now a {
-    visibility: hidden;
-    color: rgb(9, 9, 9);
-    background-color: #ff9400;
-    padding: 15px 18px;
-    transition: 0.5s ease;
-    font-weight: 600;
-  }
-  .shop-now a:hover {
-
-    color: rgb(245, 245, 245);
-    background-color: #ff9400;
-    padding: 15px 18px;
-    transition: 0.5s ease;
-    font-weight: 600;
-  } 
+  visibility: hidden;
+  color: rgb(9, 9, 9);
+  background-color: #ff9400;
+  padding: 15px 18px;
+  transition: 0.5s ease;
+  font-weight: 600;
+}
+.shop-now a:hover {
+  color: rgb(245, 245, 245);
+  background-color: #ff9400;
+  padding: 15px 18px;
+  transition: 0.5s ease;
+  font-weight: 600;
+}
 .splide__slide:hover .shop-now a {
-  visibility:visible;
+  visibility: visible;
 }
 
-.product-category{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.product-category {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splide__arrow:focus-visible {
+  outline: 3px solid #0bf;
+  outline-offset: 3px;
+}
+.splide__arrow {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f39e28!important;
+
+}
+
+.service-card{
+  background-color: #ff9400;
+  transition: 0.5s ease;
+}
+
+.service-card-desc p{
+  text-align: justify;
+}
+
+.about-section{
+  background-color: #000;
+}
+
+.new{
+  background-color: #f39e28;
+}
+
+.service-card:hover{
+  background-color: #000;
+  color: #f3f2f1;
+}
+
+.service-card:hover .service-card-icon i{
+
+  color: #ff9400;
+}
+
+.new-arrivals{
+  background-color: #000;
+}
+
+.condition-apply{
+  visibility: hidden;
+  color: #ff9400;
+}
+
+.service-card:hover .condition-apply{
+  visibility:visible;
 }
